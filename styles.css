@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: #282c34;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+#typing-container {
+    background-color: #1e2127;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#typing-text {
+    font-size: 1.5em;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.15em solid #fff;
+    animation: blink-caret 0.75s step-end infinite;
+}
+
+.content {
+    text-align: center;
+    max-width: 600px;
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: #fff;
+    }
+}
