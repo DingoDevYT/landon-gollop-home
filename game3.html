@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Five Nights at Lachsocks - Landon J. Gollop</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Trebuchet MS', sans-serif;
+            background-color: #282c34;
+            color: white;
+            line-height: 1.6;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .back-button {
+            align-self: flex-start;
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            background-color: #1e2127;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        h1, h2 {
+            color: white;
+        }
+
+        .game-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .section {
+            background-color: #1e2127;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .skills-list {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+            .skills-list li {
+                background-color: #3a3f4b;
+                color: white;
+                padding: 5px 10px;
+                border-radius: 3px;
+            }
+
+        .links a {
+            display: inline-block;
+            margin-right: 10px;
+            color: #61dafb;
+            text-decoration: none;
+        }
+
+            .links a:hover {
+                text-decoration: underline;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-button">← Back to Home</a>
+
+        <!--<h1>Sonic Velocity</h1>-->
+
+        <img src="images/game3_banner.png" alt="{Game Title}" class="game-image">
+
+        <div class="section">
+            <h2>Description</h2>
+            <p>
+                Five Night's at Lachsocks is a pseudo-joke game made for a friend's birthday and twitch stream, based on Five Night's at Freddy's. Lachsocks is the name of this friend, and the game serves
+                as one of my earliest works, testing the waters for some more complicated mechanics such as algorithmic pathfinding (A* specifically), along with structs, lists, superclasses, subclasses, and
+                some proper 3D modelling for the game's environment.'
+            </p>
+            <br />
+            <p>
+                The rest of the games mechanics are decently simple, such as the cameras and audio systems. The game then consists of five levels, with two bonus levels and a custom stage which allows the player
+                to set their own difficulty. The value they choose tells the AI how "intelligently" it should act and move towards the player.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Skills Used</h2>
+            <ul class="skills-list">
+                <li>C#</li>
+                <li>Unity</li>
+                <li>3D Modelling Blender</li>
+                <li>UI/UX Design (FireAlpaca/Adobe Illustrator)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Development Details</h2>
+            <p><strong>Time Spent:</strong> 5 weeks </p>
+            <p><strong>Team Size:</strong> 1 </p>
+            <p><strong>Role:</strong> Solo Dev </p>
+        </div>
+
+        <div class="section">
+            <h2>Links and Media</h2>
+            <div class="links">
+                <a href="https://itch.io/e/19453356/anonagondev-published-five-nights-at-lachsocks" target="_blank">Itch.io Page</a>
+            </div>
+            <!-- If you have an embedded video, you can add it here -->
+<!--            <h3>Gameplay Video</h3>
+            <iframe width="640" height="480" src="https://www.youtube.com/embed/SOwZcJCHxOQ" frameborder="0" allowfullscreen></iframe>-->
+    </div>
+</body>
+</html>
